@@ -22,9 +22,9 @@ github maven仓库的使用
 <!-- Add dependencies -->
  <dependencies>
      <dependency>
-         <artifactId>${artifactId}</artifactId>
-         <groupId>com.github.${github_account}</groupId>
-         <version>${version}</version>
+         <artifactId>spring-boot-plus</artifactId>
+         <groupId>com.github.boot</groupId>
+         <version>1.0.0</version>
      </dependency>
  </dependencies>
 </project>
