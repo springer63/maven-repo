@@ -4,7 +4,8 @@ github maven仓库的使用
 
 因为github使用了raw.githubusercontent.com这个域名用于raw文件下载。所以使用这个maven仓库，只要在pom.xml里增加：
 
-project>
+```
+<project>
 <!--Add repositories-->
  <repositories>
      <repository>
@@ -27,5 +28,5 @@ project>
      </dependency>
  </dependencies>
 </project>
-
+```
 
